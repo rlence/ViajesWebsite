@@ -1,19 +1,22 @@
-import React from 'react';
-import Menu from '../Menu';
+// import React from 'react';
+// import Menu from '../Menu';
 
 
-class Layout extends React.Component{
+
+
+
+// class Layout extends React.Component{
     
-    render() {
-        return(
-            <div className="layout">
-                <Menu />
-                
-                {this.props.children}        
-            </div>
-        );    
-    }
-}
+//     render() {
+//         return(
+//             <div className="layout">
+//                 <Menu />                
+//                 {this.props.children}
+                       
+//             </div>
+//         );    
+//     }
+// }
 
-export default Layout;
+// export default Layout;
 
