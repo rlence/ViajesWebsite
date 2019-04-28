@@ -1,34 +1,34 @@
 footer{
    
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    border-top: 20%;
     color: white;
     width: 100%;
+    background-color: black;
+    padding: 2%;
+    
+    
 
-    .pie_izquierda1{
+    .pie_izquierda{
         
         display: flex;
-        width: 100%;
-        height: 100px;
-        background-color:black;
-        border-top: 2px solid #000;
+        width: 100%;             
         position: relative;
         flex-direction: row;
-        padding: 50px;
         columns: 20%;
+        
         }
 
-        .pie_izquierda2 {
+        .pie_centro {
 
             display: flex;
-            width: 100%;
-            height: 100px;
-            background-color:black;
-            border-top: 2px solid #000;
+            width: 100%;            
             position: relative;
             flex-direction: row;
-            padding: 50px;
             columns: 20%;
+            
+                     
             }
       
 }

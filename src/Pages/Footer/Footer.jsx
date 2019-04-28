@@ -33,7 +33,7 @@ const Footer = props => {
                     </div>
                 </div>
 
-                <div className="pie_izquierda2">
+                <div className="pie_centro">
 
                     <div className="colum">
 
@@ -57,6 +57,22 @@ const Footer = props => {
                         <div className="row">
                             <label> Aviso legal</label>
                         </div>
+
+                        <div className="pie_derecha">
+
+                    <div className="colum">
+
+                        <div className="row">
+                            <label> SUSCRIBETE A LA NEWSLETTER</label>
+                        </div>
+                        <br></br>
+                        <div className="row">
+                            <button> SUSCRIBETE</button>
+                        </div>
+
+                    </div>
+
+                    </div>
 
                     </div>
 
